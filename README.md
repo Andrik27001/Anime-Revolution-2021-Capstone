@@ -1,1 +1,1 @@
-# HTML-CSS---Capstone-Project
+# HTML-CSS-Capstone-Project
