@@ -1,0 +1,27 @@
+.about-welcome {
+  text-align: center;
+  padding: 28px;
+}
+
+.about-welcome h1 {
+  line-height: 50px;
+  font-family: 'Ultra', serif;
+  font-size: 50px;
+}
+
+.about-welcome-text {
+  font-size: 19px;
+  background-color: #d3d3d3;
+  margin: 40px 0;
+  padding: 20px;
+  line-height: 30px;
+}
+
+.about-welcome-text2 h3 {
+  font-size: 34px;
+  font-family: 'Ultra', serif;
+}
+
+.about-welcome-text2 {
+  font-size: 21px;
+}
