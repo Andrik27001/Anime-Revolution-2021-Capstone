@@ -129,7 +129,8 @@ body {
 
 .main-program button {
   color: #d3d3d3;
-  background-color: #ec5242;
+  border-radius: 6px;
+  background-color: #ec5342a6;
   border: none;
   font-size: 23px;
   padding: 36px 74px;
@@ -227,4 +228,8 @@ body {
 
 .legal p {
   margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  
 }

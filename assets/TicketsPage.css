@@ -1,15 +1,10 @@
 main {
-  min-height: 850px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   padding: 30px;
 }
 
 .steps {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -22,15 +17,15 @@ main {
   padding-right: 10px;
 }
 
-.steps .iconify{
-  color: #ec5242;
-}
-
 .steps h3 {
   font-size: 18px;
   font-weight: bold;
   color: #ec5242;
   margin: 0;
+}
+
+.steps .iconify{
+  color: #ec5242;
 }
 
 .day-price h4 {
@@ -51,6 +46,24 @@ main {
   border: 1px solid #d3d3d3;
 }
 
+.menu-title {
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+}
+
+.menu-title h3 {
+  font-size: 22px;
+  color: #ec5242;
+}
+
+.menu1 {
+  border: 1px solid #d3d3d3;
+}
+
+.menu1 h4 {
+  font-size: 18px;
+}
+
 .arrow1 {
   background-image: url(./Images/arrow.png);
   height: 65px;
@@ -59,7 +72,21 @@ main {
 }
 
 .arrow-down {
-  margin-top: 19px;
+  padding-top: 18px;
+}
+
+.confirm-button {
+  color: #d3d3d3;
+  border-radius: 6px;
+  background-color: #ec5342;
+  border: none;
+  font-size: 23px;
+  padding: 14px 70px;
+}
+
+.more-button {
+  border: 1px solid #d3d3d3;
+  padding: 8px 12px;
 }
 
 @media only screen and (min-width: 768px) {

@@ -52,6 +52,10 @@ main {
   background-color: #d3d3d3a4;
 }
 
+.past-conventions a:hover {
+  text-decoration: none;
+}
+
 .past-animes {
   display: flex;
   flex-wrap: wrap;
@@ -105,4 +109,8 @@ main {
 .anime-2018 h5 {
   font-size: 22px;
   margin: 6px 0 0 0;
+}
+
+@media only screen and (min-width: 768px) {
+  
 }
