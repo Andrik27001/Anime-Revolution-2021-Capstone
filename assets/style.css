@@ -7,6 +7,7 @@
 body {
   font-family: 'Lato', sans-serif;
   color: #272A31;
+  font-size: 17px;
 }
 
 .color1 {
@@ -123,7 +124,6 @@ body {
 .program-info {
   display: flex;
   justify-content: center;
-  font-size: 17px;
   width: 55%;
 }
 

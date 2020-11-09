@@ -1,0 +1,67 @@
+main {
+  min-height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d3d3d3;
+  padding: 20px;
+  border-radius: 60px;
+}
+
+.steps h3 {
+  padding-right: 10px;
+}
+
+.steps .iconify{
+  color: #ec5242;
+}
+
+.steps h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ec5242;
+  margin: 0;
+}
+
+.day-price h4 {
+  font-size: 18px;
+}
+
+.day-price h3 {
+  font-size: 18px;
+  color: #ec5242;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  border: 1px solid #d3d3d3;
+}
+
+.arrow1 {
+  background-image: url(./Images/arrow.png);
+  height: 65px;
+  width: 65px;
+  background-size: cover;
+}
+
+.arrow-down {
+  margin-top: 19px;
+}
+
+@media only screen and (min-width: 768px) {
+
+}
