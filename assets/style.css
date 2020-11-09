@@ -41,7 +41,7 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 800px;
-  padding: 28px;
+  padding: 30px;
 }
 
 .welcome h1 {
@@ -57,10 +57,10 @@ body {
 
 .welcome-text {
   font-size: 19px;
-  background-color: #d3d3d3;
+  background-color: #d3d3d3a4;
   margin: 40px 0;
   padding: 20px;
-  line-height: 30px;
+  line-height: 33px;
 }
 
 .welcome-text2 h3 {
