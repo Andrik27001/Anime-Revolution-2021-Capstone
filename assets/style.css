@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  color: #272A31;
+  color: #272a31;
   font-size: 18px;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 .color2 {
-  color: #272A31;
+  color: #272a31;
 }
 
 .color3 {
@@ -28,7 +28,7 @@ ul {
 
 a {
   text-decoration: none;
-  transition: all 1s ease 0s;
+  transition: all 0.6s ease 0s;
 }
 
 button {
@@ -107,13 +107,13 @@ main {
 }
 
 .welcome h1 {
-  background-image: linear-gradient(  #ec53427e, #ec534275), url(./Images/draw-anime-background-according-to-your-ideas.jpg);
+  background-image: linear-gradient(#ec53427e, #ec534275), url(./Images/draw-anime-background-according-to-your-ideas.jpg);
   background-size: cover;
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
   color: transparent;
   font-family: 'Ultra', serif;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .welcome-text {
@@ -221,15 +221,16 @@ main {
 .featured-speakers button {
   border: 1px solid #d3d3d3;
   padding: 16px 240px;
-  margin-bottom: 30px ;
+  margin-bottom: 30px;
 }
 
 .partner {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #272A31;
+  background-color: #272a31;
   height: 250px;
+  margin-top: 80px;
 }
 
 .partner-logos {
@@ -256,11 +257,10 @@ main {
 }
 
 @media only screen and (min-width: 768px) {
-  
   main {
     margin-top: 106px;
   }
-  
+
   .desktop-nav {
     position: fixed;
     top: 0;
@@ -272,7 +272,7 @@ main {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #272A31;
+    background-color: #272a31;
     min-height: 36px;
     font-size: 16px;
   }
@@ -295,11 +295,6 @@ main {
     color: #d3d3d3;
   }
 
-  .desktop-nav1 a:hover {
-    color: #ec5242;
-    text-decoration: none;
-  }
-
   .desktop-nav2 {
     display: flex;
     justify-content: space-around;
@@ -319,13 +314,8 @@ main {
   }
 
   .desktop-nav2 a {
-    color: #272A31;
+    color: #272a31;
     padding-right: 35px;
-  }
-
-  .desktop-nav2 a:hover {
-    color: #ec5242;
-    text-decoration: none;
   }
 
   .desktop-nav2 button {
@@ -333,10 +323,6 @@ main {
     padding: 6px 8px;
     border: 4px solid #ec5242;
     border-radius: 8px;
-  }
-
-  .desktop-nav2 button:hover {
-    background-color: #272A31;
   }
 
   .welcome {
@@ -362,7 +348,7 @@ main {
 
   .program-container {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
   }
 
   .program-title {
@@ -395,7 +381,7 @@ main {
     height: 200px;
     font-size: 15px;
   }
-  
+
   .legal img {
     width: 250px;
   }
@@ -406,6 +392,20 @@ main {
   }
 
   .legal-text a {
-    color: #272A31;
+    color: #272a31;
+  }
+
+  .desktop-nav1 a:hover {
+    color: #ec5242;
+    text-decoration: none;
+  }
+
+  .desktop-nav2 a:hover {
+    color: #ec5242;
+    text-decoration: none;
+  }
+
+  .desktop-nav2 button:hover {
+    background-color: #272a31;
   }
 }

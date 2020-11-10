@@ -1,3 +1,9 @@
+.get-tickets,
+.get-meal {
+  margin: 0 0 60px 0;
+  padding: 0 30px;
+}
+
 .steps {
   display: inline-flex;
   flex-wrap: wrap;
@@ -5,30 +11,34 @@
   align-items: center;
   border: 1px solid #d3d3d3;
   padding: 20px;
+  margin-bottom: 60px;
   border-radius: 60px;
 }
 
 .steps h3 {
   padding-right: 10px;
-}
-
-.steps h3 {
   font-size: 18px;
   font-weight: bold;
   color: #ec5242;
   margin: 0;
 }
 
-.steps .iconify{
+.steps .iconify {
   color: #ec5242;
+}
+
+.day-price {
+  border: 10px dashed #ec5242;
 }
 
 .day-price h4 {
   font-size: 18px;
+  font-weight: bold;
 }
 
 .day-price h3 {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
   color: #ec5242;
 }
 
@@ -41,33 +51,36 @@
   border: 1px solid #d3d3d3;
 }
 
+.arrow1 {
+  align-items: center;
+  background-image: url(./Images/arrow.png);
+  height: 65px;
+  width: 65px;
+  background-size: cover;
+  padding: 0 0 0 23px;
+}
+
 .menu-title {
   background-color: #f1f1f1;
   border: 1px solid #d3d3d3;
 }
 
 .menu-title h3 {
+  padding: 20px;
+  margin: 0;
   font-size: 22px;
   color: #ec5242;
 }
 
 .menu1 {
   border: 1px solid #d3d3d3;
+  padding: 30px;
+  margin-bottom: 40px;
 }
 
 .menu1 h4 {
   font-size: 18px;
-}
-
-.arrow1 {
-  background-image: url(./Images/arrow.png);
-  height: 65px;
-  width: 65px;
-  background-size: cover;
-}
-
-.arrow-down {
-  padding-top: 18px;
+  font-weight: bold;
 }
 
 .confirm-button {
@@ -77,6 +90,7 @@
   border: none;
   font-size: 23px;
   padding: 14px 70px;
+  margin-bottom: 30px;
 }
 
 .more-button {
@@ -84,6 +98,6 @@
   padding: 8px 12px;
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
 
-}
+} */
