@@ -1,14 +1,21 @@
 main {
-  margin-top: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
+.text {
+  line-height: 28px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.text1 {
+  line-height: 28px;
+  margin: 0 auto;
+  width: 90%;
+}
+
 .about-welcome {
-  padding: 30px;
+  margin-top: 100px;
 }
 
 .about-welcome h1 {
@@ -29,23 +36,12 @@ main {
   line-height: 33px;
 }
 
-.email {
-  line-height: 30px;
-  margin: 0 auto;
-  width: 80%;
-}
-
 .email a {
   display: block;
   font-size: 18px;
   color: #272a31;
   font-weight: bold;
   text-decoration: underline;
-}
-
-.logo-info {
-  margin: 0 auto;
-  width: 80%;
 }
 
 .about-welcome-img {
@@ -111,6 +107,37 @@ main {
   margin: 6px 0 0 0;
 }
 
+.legal1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  font-size: 16px;
+  color: #d3d3d3;
+  background-color: #272a31;
+}
+
+.legal1 img {
+  width: 200px;
+}
+
 @media only screen and (min-width: 768px) {
+  .legal1 {
+    justify-content: center;
+    height: 200px;
+    font-size: 15px;
+  }
   
+  .legal1 img {
+    width: 250px;
+  }
+
+  .legal-text1 {
+    margin-left: 30px;
+    width: 46%;
+  }
+
+  .legal-text1 a {
+    color: #d3d3d3;
+  }
 }

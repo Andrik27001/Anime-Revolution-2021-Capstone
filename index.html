@@ -10,23 +10,60 @@
 </head>
 <body>
   <header>
-    <div class="dropdown fixed-top mobile-nav">
+    <div class="dropdown d-md-none fixed-top mobile-nav">
       <button class="btn mobile-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="iconify" data-icon="fa-solid:bars" data-inline="false"></span>
       </button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="./index.html"><img width="120" src="./assets/Images/Anime logo.png" alt="Anime logo"></a>
+        <a class="dropdown-item" href="./index.html"><img width="150" src="./assets/Images/Anime logo.png" alt="Anime logo"></a>
         <hr>
         <a class="dropdown-item" href="./AboutPage.html">About</a>
-        <a class="dropdown-item" href="#">Program</a>
-        <a class="dropdown-item" href="#">Join</a>
-        <a class="dropdown-item" href="#">Sponsor</a>
-        <a class="dropdown-item" href="#">News</a>
-        <a class="dropdown-item color1" href="./TicketsPage.html">Anime Revolution 2021</a>
+        <a href="#program" class="dropdown-item">Program</a>
+        <a href="#join-button" class="dropdown-item">Join</a>
+        <a href="#sponsors" class="dropdown-item">Sponsor</a>
+        <a href="./AboutPage.html" class="dropdown-item">News</a>
+        <a href="./TicketsPage.html" class="dropdown-item color1">Anime Revolution 2021</a>
         <hr>
-        <button class="dropdown-item">Logout</button>
-        <button class="dropdown-item">Mypage</button>
-        <button class="dropdown-item">English</button>
+        <a href="#" class="dropdown-item">Logout</a>
+        <a href="#" class="dropdown-item">Mypage</a>
+        <a href="#" class="dropdown-item">English</a>
+      </div>
+    </div>
+
+    <div class="desktop-nav d-none d-md-block">
+      <div class="desktop-nav1">
+        <div class="desktop-icons1">
+          <a href="#">
+            <span class="iconify" data-icon="brandico:facebook" data-inline="false"></span>
+          </a>
+          <a href="#">
+            <span class="iconify" data-icon="brandico:twitter-bird" data-inline="false"></span>
+          </a>
+        </div>
+        <ul>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">English</a></li>
+        </ul>
+      </div>
+      <div class="desktop-nav2">
+        <div class="desktop-logo2">
+          <a href="./index.html">
+            <img src="./assets/Images/Anime logo.png" width="200" alt="">
+          </a>
+        </div>
+        <ul>
+          <li><a href="./AboutPage.html">About</a></li>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#join-button">Join</a></li>
+          <li><a href="#sponsors">Sponsor</a></li>
+          <li><a href="./AboutPage.html">News</a></li>
+          <li>
+            <form method="GET" action="./TicketsPage.html">
+              <button type="submit">AR2021</button>
+            </form>
+          </li>
+        </ul>
       </div>
     </div>
   </header>
@@ -34,6 +71,13 @@
   <main>
     <section>
       <div class="welcome">
+        <div class="d-none d-md-flex">
+          <span class="iconify" data-icon="entypo:home" data-inline="false"></span>
+          <span class="iconify color1" data-icon="dashicons:arrow-right-alt2" data-inline="false"></span>
+          <span>About</span>
+          <span class="iconify color1" data-icon="dashicons:arrow-right-alt2" data-inline="false"></span>
+          <span>AR 2021</span>
+        </div>
 
         <h2 class="color1">"Kon'nichiwa Anime Lovers!"</h2>
         <h1>ANIME REVOLUTION 2021</h1>
@@ -42,7 +86,7 @@
           Bringing fans and industry together for an annual celebration of Japanese pop culture. Join us in Downtown Los Angeles for our 30th Anniversary!
         </div>
 
-        <div class="welcome-text2">
+        <div id="program" class="welcome-text2">
           <h3>2021.10.15(THU) ~ 16(FRI)</h3>
           <div>@ National Auditorium of los Angeles, Art and more</div>
         </div>
@@ -52,9 +96,9 @@
 
     <section>
       <div class="main-program color3">
-        <div>
-          <h2 class="section-title">Main Program</h2>
-          <p class="m-0 color1">________</p>
+        <div class="section-title-white">
+          <h2>Main Program</h2>
+          <p>___________</p>
         </div>
 
         <div class="program-container">
@@ -63,8 +107,8 @@
               <span class="iconify" data-icon="carbon:user-speaker" data-inline="false"></span>
             </div>
 
-            <div class="program-title color1">
-              <h3>Lecture</h3>
+            <div class="program-title">
+              <h3 class="m-0">Lecture</h3>
             </div>
 
             <div class="program-info">Listen to the story of different celebrities including Japan's top anime authors and their opinion about 2021s Anime.</div>
@@ -75,8 +119,8 @@
               <span class="iconify" data-icon="mdi:brain" data-inline="false"></span>
             </div>
 
-            <div class="program-title color1">
-              <h3>Exhibition</h3>
+            <div class="program-title">
+              <h3 class="m-0">Exhibition</h3>
             </div>
 
             <div class="program-info">Appreciate the complex making of the bests animes and mangas of the year and the different technologies used to develop them</div>
@@ -87,8 +131,8 @@
               <span class="iconify" data-icon="si-glyph:mask-1" data-inline="false"></span>
             </div>
 
-            <div class="program-title color1">
-              <h3>Cosplay</h3>
+            <div class="program-title">
+              <h3 class="m-0">Cosplay</h3>
             </div>
 
             <div class="program-info">Take part in the greatest Anime cosplay contest in the world and display your best creations to the crowd on the Anime Revolution's stage.</div>
@@ -99,8 +143,8 @@
               <span class="iconify" data-icon="el:fire" data-inline="false"></span>
             </div>
 
-            <div class="program-title color1">
-              <h3 >Last News</h3>
+            <div class="program-title">
+              <h3 class="m-0">Last News</h3>
             </div>
 
             <div class="program-info">Catch up on the most anticipated news about anime, including new releases, video games, and upcoming seasons!</div>
@@ -111,15 +155,17 @@
               <span class="iconify" data-icon="carbon:network-4" data-inline="false"></span>
             </div>
 
-            <div class="program-title color1">
-              <h3>Connect</h3>
+            <div class="program-title">
+              <h3 id="join-button"  class="m-0">Connect</h3>
             </div>
 
             <div class="program-info">Get opportunities to work with the biggest anime enterprises in the world by sharing your ultimate anime projects and ideas.</div>
           </div>
         </div>
 
-        <button type="button">Join Anime Revolution 2021</button>
+        <form action="./TicketsPage.html" method="GET">
+          <button type="submit">Join Anime Revolution 2021</button>
+        </form>
 
       </div>
     </section>
@@ -127,8 +173,11 @@
     <section>
       <div class="featured-speakers">
 
-        <h2 class="speakers-title">Featured Speakers</h2>
-        <p class="mb-3 color1">________</p>
+        <div class="section-title-black">
+          <h2>Featured Speakers</h2>
+          <p>___________</p>
+        </div>
+          
         
         <div class="speakers">
           <div class="speaker-img">
@@ -154,7 +203,7 @@
           </div>
         </div>
 
-        <div class="d-none d-md-block speakers">
+        <div class="d-none d-md-flex speakers">
           <div class="speaker-img">
             <img src="./assets/Images/Hajime Isayama.jpg" alt="Hajime Isayama">
           </div>
@@ -166,7 +215,7 @@
           </div>
         </div>
 
-        <div class="d-none d-md-block speakers">
+        <div class="d-none d-md-flex speakers">
           <div class="speaker-img">
             <img src="./assets/Images/Hideaki Anno.jpg" alt="Hideaki Anno">
           </div>
@@ -178,7 +227,7 @@
           </div>
         </div>
 
-        <div class="d-none d-md-block speakers">
+        <div class="d-none d-md-flex speakers">
           <div class="speaker-img">
             <img src="./assets/Images/Hayao_Miyazaki_cropped_1_Hayao_Miyazaki_201211.jpg" alt="Hayao Miyazaki">
           </div>
@@ -190,7 +239,7 @@
           </div>
         </div>
 
-        <div class="d-none d-md-block speakers">
+        <div class="d-none d-md-flex speakers">
           <div class="speaker-img">
             <img src="./assets/Images/Masashi Kishimoto.jpg" alt="Masashi Kishimoto">
           </div>
@@ -264,17 +313,18 @@
     </section>
   </main>
 
-  <footer>
+  <footer id="sponsors">
     <section>
       <div class="partner">
-
-        <h2 class="section-title color3">Partner</h2>
-        <p class="m-0 color1">________</p>
+        <div class="section-title-white">
+          <h2>Partner</h2>
+          <p>___________</p>
+        </div>
 
         <div class="partner-logos">
           <img src="./assets/Images/funimation-logo.png" width="160" alt="Funimation">
 
-          <img class="aniplex-logo" src="./assets/Images/Aniplex-Logo.wine.png" width="160" alt="Aniplex">
+          <img class="aniplex-logo" src="./assets/Images/Aniplex_logo.svg.png" width="160" alt="Aniplex">
 
           <img class="crunchy-logo" src="./assets/Images/crunchyroll_logo_horizontal.png" width="160" alt="Crunchyroll">
 
@@ -282,7 +332,6 @@
 
           <img class="ghibli-logo" src="./assets/Images/Studio_Ghibli_wordmark.svg.png" width="160" alt="Toei Animation">
         </div>
-
       </div>
     </section>
 
@@ -291,8 +340,13 @@
         <div>
           <a href="#"><img src="./assets/Images/Anime logo.png" alt="Anime-logo"></a>
         </div>
-        <div>
-          <p>2021 Anime Revolution Los Angeles.</p><span>Some rights reserved.</span>
+        <div class="d-md-none">
+          <p class="m-0">2021 Anime Revolution Los Angeles.</p><span>Some rights reserved.</span>
+        </div>
+        <div class="d-none d-md-block legal-text">
+          <p class="mb-2"><strong> Anime Revolution Los Angeles. Some Rights Reserved.</strong></p>
+
+          <p class="m-0">All intermediate content, unless otherwise specified, is available under the Creative Commons Attribution 2.0 Korea license. ZAE O1871 8 <a href="#">http://creativecommons.org/licences/by/2.0/krSALR.</a></p>
         </div>
       </div>
     </section>
