@@ -27,7 +27,8 @@ ul {
 }
 
 a {
-  transition: all 0.2s ease 0s;
+  text-decoration: none;
+  transition: all 1s ease 0s;
 }
 
 button {
@@ -37,12 +38,12 @@ button {
 .section-title-white {
   color: #d3d3d3;
   text-align: center;
-  margin: 12px 0;
+  padding: 45px 0;
 }
 
 .section-title-white h2 {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 30px;
   margin: 0;
 }
 
@@ -54,12 +55,12 @@ button {
 
 .section-title-black {
   text-align: center;
-  margin: 12px 0;
+  padding: 45px 0;
 }
 
 .section-title-black h2 {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 30px;
   margin: 0;
 }
 
@@ -69,9 +70,14 @@ button {
   margin: 0;
 }
 
+main {
+  margin-top: 70px;
+}
+
 .mobile-nav {
   background-color: white;
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #d3d3d3;
+  box-shadow: 0 0 10px;
 }
 
 .mobile-nav a {
@@ -94,11 +100,13 @@ button {
   flex-direction: column;
   justify-content: center;
   padding: 30px;
-  margin-top: 100px;
+  min-height: 800px;
+  background-image: url(./Images/background2.jpg);
+  background-size: cover;
+  background-position: left bottom;
 }
 
 .welcome h1 {
-  line-height: 50px;
   background-image: linear-gradient(  #ec53427e, #ec534275), url(./Images/draw-anime-background-according-to-your-ideas.jpg);
   background-size: cover;
   background-clip: text;
@@ -110,10 +118,10 @@ button {
 
 .welcome-text {
   font-size: 19px;
-  background-color: #d3d3d3a4;
+  background-color: white;
+  box-shadow: 0 0 20px #272a3170;
   margin: 40px 0;
   padding: 20px;
-  line-height: 33px;
 }
 
 .welcome-text2 h3 {
@@ -122,64 +130,56 @@ button {
 }
 
 .welcome-text2 {
+  font-weight: bold;
   font-size: 21px;
 }
 
 .main-program {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   background-image: url(./Images/hero_bg.png);
   background-size: cover;
   background-position: center;
-  padding: 18px;
-  height: 1000px;
-}
-
-.program-container {
-  text-align: start;
-  margin: 35px 0 40px 0;
+  padding: 0 20px;
 }
 
 .programs {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  text-align: start;
   min-height: 120px;
   background-color: #d3d3d32d;
-  margin: 10px 0;
+  padding: 20px;
+  margin: 12px 0 0 0;
 }
 
 .program-icon {
-  text-align: right;
   font-size: 50px;
-  width: 14%;
 }
 
 .program-title {
   text-align: center;
   font-size: 24px;
   color: #ec5242;
-  width: 29%;
+  width: 55%;
+  padding: 10px 0;
 }
 
 .program-info {
-  width: 55%;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
 }
 
 .main-program button {
   color: #d3d3d3;
   border-radius: 6px;
-  background-color: #ec5342a6;
+  background-color: #ec5342;
   border: none;
   font-size: 23px;
   padding: 36px 74px;
-}
-
-.featured-speakers {
-  display: flex;
-  flex-direction: column;
+  margin: 45px 0;
 }
 
 .speakers {
@@ -192,6 +192,7 @@ button {
   margin-right: 26px;
   width: 160px;
   height: 160px;
+  box-shadow: -12px -12px 14px;
 }
 
 .speakers h2 {
@@ -228,7 +229,7 @@ button {
   flex-direction: column;
   justify-content: center;
   background-color: #272A31;
-  height: 300px;
+  height: 250px;
 }
 
 .partner-logos {
@@ -256,6 +257,10 @@ button {
 
 @media only screen and (min-width: 768px) {
   
+  main {
+    margin-top: 106px;
+  }
+  
   .desktop-nav {
     position: fixed;
     top: 0;
@@ -282,7 +287,7 @@ button {
     display: flex;
     justify-content: space-around;
     width: 250px;
-    margin: 0 12% 0 0;
+    margin: 0 15% 0 0;
     padding: 0;
   }
 
@@ -303,21 +308,19 @@ button {
     font-weight: bold;
     background-color: white;
     border-bottom: 1px solid #d3d3d3;
-    box-shadow: 0 0 16px;
+    box-shadow: 0 0 10px;
   }
 
   .desktop-nav2 ul {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 44.5vw;
     margin: 0;
     padding: 0;
   }
 
   .desktop-nav2 a {
     color: #272A31;
-    padding: 0 10px;
+    padding-right: 35px;
   }
 
   .desktop-nav2 a:hover {
@@ -336,12 +339,53 @@ button {
     background-color: #272A31;
   }
 
-  main {
-    margin-top: 120px;
+  .welcome {
+    display: flex;
+    padding-left: 10%;
   }
 
-  .partner-logos img{
-    margin: 0 20px;
+  .welcome h2 {
+    font-size: 50px;
+  }
+
+  .welcome h1 {
+    font-size: 80px;
+  }
+
+  .welcome-text {
+    width: 56%;
+  }
+
+  .welcome-text2 h3 {
+    font-size: 40px;
+  }
+
+  .program-container {
+    display: flex;
+    justify-content: center;  
+  }
+
+  .program-title {
+    width: 100%;
+  }
+
+  .programs {
+    flex-direction: column;
+    max-width: 250px;
+    text-align: center;
+    margin: 3px;
+  }
+
+  .main-program button {
+    margin: 75px 0;
+  }
+
+  .speakers-pair {
+    display: flex;
+  }
+
+  .speakers-pair .speakers {
+    flex: 1;
   }
 
   .legal {
@@ -363,9 +407,5 @@ button {
 
   .legal-text a {
     color: #272A31;
-  }
-
-  .partner {
-    height: 200px;
   }
 }

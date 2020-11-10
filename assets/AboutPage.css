@@ -3,49 +3,42 @@ main {
 }
 
 .text {
-  line-height: 28px;
   margin: 0 auto;
   width: 80%;
 }
 
 .text1 {
-  line-height: 28px;
   margin: 0 auto;
   width: 90%;
 }
 
 .about-welcome {
-  margin-top: 100px;
+  background-image: url(./Images/background2.jpg);
+  background-size: cover;
 }
 
 .about-welcome h1 {
-  line-height: 50px;
-  background-image: linear-gradient(  #ec53427e, #ec534275), url(./Images/draw-anime-background-according-to-your-ideas.jpg);
-  background-size: cover;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
   font-family: 'Ultra', serif;
   font-size: 50px;
 }
 
 .about-welcome-info {
-  font-size: 19px;
-  background-color: #d3d3d3a4;
+  background-color: white;
+  border: 1px solid #d3d3d3;
   padding: 20px;
   line-height: 33px;
 }
 
-.email a {
+.about-email a {
   display: block;
-  font-size: 18px;
   color: #272a31;
   font-weight: bold;
   text-decoration: underline;
 }
 
-.about-welcome-img {
-  background-color: #d3d3d3a4;
+.about-logo-section {
+  background-color: white;
+  border: 1px solid #d3d3d3;
 }
 
 .past-conventions a:hover {
@@ -59,50 +52,33 @@ main {
   align-items: center;
 }
 
-.anime-2015 {
+.anime-2015, .anime-2018 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient( #ff26004d,#272a31), url(./Images/anime-convention2015.jpg);
   background-size: cover;
   width: 480px;
   min-height: 260px;
   margin: 12px;
 }
 
-.anime-2015 h3 {
-  font-family: 'Ultra', serif;
-  letter-spacing: 6px;
-  font-size: 40px;
-  margin: 0;
-}
-
-.anime-2015 h5 {
-  font-size: 22px;
-  margin: 6px 0 0 0;
+.anime-2015 {
+  background-image: linear-gradient( #ff26004d,#272a31), url(./Images/anime-convention2015.jpg);
 }
 
 .anime-2018 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-image: linear-gradient( #ff26004d,#272a31), url(./Images/anime_expo.jpg);
-  background-size: cover;
-  width: 480px;
-  min-height: 260px;
-  margin: 12px;
 }
 
-.anime-2018 h3 {
+.anime-2015 h3, .anime-2018 h3 {
   font-family: 'Ultra', serif;
   letter-spacing: 6px;
   font-size: 40px;
   margin: 0;
 }
 
-.anime-2018 h5 {
+.anime-2015 h5, .anime-2018 h5 {
   font-size: 22px;
   margin: 6px 0 0 0;
 }
