@@ -20,7 +20,7 @@ main {
 
 .about-welcome-info {
   background-color: white;
-  border: 1px solid #d3d3d3;
+  box-shadow: 0 0 20px #272a3170;
   padding: 20px;
   margin-bottom: 60px;
   line-height: 33px;
@@ -35,19 +35,19 @@ main {
 }
 
 .about-logo-section {
-  background-color: #272a31;
-  border: 1px solid #cecece;
+  background-color: white;
+  box-shadow: 0 0 20px #272a3170;
 }
 
 .about-logo-info {
   margin: 0 auto 40px auto;
-  color: #d3d3d3;
   width: 50%;
 }
 
 .about-logo-section img {
-  box-shadow: 0 0 20px 4px #ec5242;
-  background-color: #d3d3d3;
+  background-color: rgb(236, 236, 236);
+  box-shadow: 0 0 20px #272a3170;
+  border-radius: 6px;
   padding: 40px;
   margin-bottom: 50px;
 }
@@ -74,14 +74,16 @@ main {
   width: 480px;
   min-height: 260px;
   margin: 12px;
+  border-radius: 8px;
+  transition: 0.5s;
 }
 
 .anime-2015 {
-  background-image: linear-gradient(#ff26004d, #272a31), url(./Images/anime-convention2015.jpg);
+  background-image: linear-gradient(#b96151ab, #e6472bb0), url(./Images/anime-convention2015.jpg);
 }
 
 .anime-2018 {
-  background-image: linear-gradient(#ff26004d, #272a31), url(./Images/anime_expo.jpg);
+  background-image: linear-gradient(#b96151ab, #e6472bb0), url(./Images/anime_expo.jpg);
 }
 
 .anime-2015 h3,
@@ -98,6 +100,11 @@ main {
   margin: 6px 0 0 0;
 }
 
+.anime-2015:hover,
+.anime-2018:hover {
+  transform: scale(1.05);
+}
+
 .legal1 {
   display: flex;
   justify-content: space-around;
@@ -110,7 +117,7 @@ main {
 }
 
 .legal1 img {
-  width: 200px;
+  width: 220px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -118,10 +125,6 @@ main {
     justify-content: center;
     height: 200px;
     font-size: 15px;
-  }
-
-  .legal1 img {
-    width: 250px;
   }
 
   .legal-text1 {

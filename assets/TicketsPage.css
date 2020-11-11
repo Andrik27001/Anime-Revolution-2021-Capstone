@@ -28,7 +28,7 @@
 }
 
 .day-price {
-  border: 10px dashed #ec5242;
+  border: 6px dashed #ec5242;
 }
 
 .day-price h4 {
@@ -67,6 +67,7 @@
 
 .menu-title h3 {
   padding: 20px;
+  font-weight: bold;
   margin: 0;
   font-size: 22px;
   color: #ec5242;

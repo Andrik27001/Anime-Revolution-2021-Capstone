@@ -76,8 +76,7 @@ main {
 
 .mobile-nav {
   background-color: white;
-  border-bottom: 1px solid #d3d3d3;
-  box-shadow: 0 0 10px;
+  box-shadow: 0 0 10px #41414194;
 }
 
 .mobile-nav a {
@@ -107,7 +106,7 @@ main {
 }
 
 .welcome h1 {
-  background-image: linear-gradient(#ec53427e, #ec534275), url(./Images/draw-anime-background-according-to-your-ideas.jpg);
+  background-image: url(./Images/images.jpg);
   background-size: cover;
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -151,6 +150,14 @@ main {
   background-color: #d3d3d32d;
   padding: 20px;
   margin: 12px 0 0 0;
+  transition: 0.4s;
+}
+
+.programs:hover {
+  transform: scale(1.05);
+  background-color: #d3d3d39a;
+  box-shadow: 0 0 10px 5px #d3d3d36b;
+  color: #272a31;
 }
 
 .program-icon {
@@ -192,7 +199,7 @@ main {
   margin-right: 26px;
   width: 160px;
   height: 160px;
-  box-shadow: -12px -12px 14px;
+  box-shadow: -12px -12px 14px #272a31;
 }
 
 .speakers h2 {
@@ -241,7 +248,7 @@ main {
 }
 
 .partner-logos img {
-  margin: 20px;
+  margin: 10px;
 }
 
 .legal {
@@ -302,8 +309,7 @@ main {
     font-size: 17px;
     font-weight: bold;
     background-color: white;
-    border-bottom: 1px solid #d3d3d3;
-    box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px #41414194;
   }
 
   .desktop-nav2 ul {
@@ -374,16 +380,22 @@ main {
     flex: 1;
   }
 
+  .partner-logos img {
+    margin: 30px;
+    transition: 0.4s;
+  }
+
+  .partner-logos img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+  }
+
   .legal {
     justify-content: space-around;
     margin: 0 auto;
     width: 70%;
     height: 200px;
     font-size: 15px;
-  }
-
-  .legal img {
-    width: 250px;
   }
 
   .legal-text {
