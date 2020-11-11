@@ -5,7 +5,7 @@ main {
 .first-section-container {
   background-image: url(./Images/background2.jpg);
   background-size: cover;
-  background-position: left bottom;
+  background-position: left;
   padding: 30px;
 }
 
@@ -14,13 +14,13 @@ main {
 }
 
 .about-welcome h1 {
-  font-family: 'Ultra', serif;
-  font-size: 60px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 65px;
 }
 
 .about-welcome-info {
   background-color: white;
-  box-shadow: 0 0 20px #272a3170;
+  box-shadow: 0 0 10px #d3d3d3;
   padding: 20px;
   margin-bottom: 60px;
   line-height: 33px;
@@ -36,7 +36,7 @@ main {
 
 .about-logo-section {
   background-color: white;
-  box-shadow: 0 0 20px #272a3170;
+  box-shadow: 0 0 10px #d3d3d3;
 }
 
 .about-logo-info {
@@ -45,8 +45,7 @@ main {
 }
 
 .about-logo-section img {
-  background-color: rgb(236, 236, 236);
-  box-shadow: 0 0 20px #272a3170;
+  box-shadow: 0 0 10px #d3d3d3;
   border-radius: 6px;
   padding: 40px;
   margin-bottom: 50px;
@@ -79,16 +78,16 @@ main {
 }
 
 .anime-2015 {
-  background-image: linear-gradient(#b96151ab, #e6472bb0), url(./Images/anime-convention2015.jpg);
+  background-image: linear-gradient(#ec5242ab, #ec5242ab), url(./Images/anime-convention2015.jpg);
 }
 
 .anime-2018 {
-  background-image: linear-gradient(#b96151ab, #e6472bb0), url(./Images/anime_expo.jpg);
+  background-image: linear-gradient(#ec5242ab, #ec5242ab), url(./Images/anime_expo.jpg);
 }
 
 .anime-2015 h3,
 .anime-2018 h3 {
-  font-family: 'Ultra', serif;
+  font-family: 'Heebo', sans-serif;
   letter-spacing: 6px;
   font-size: 40px;
   margin: 0;

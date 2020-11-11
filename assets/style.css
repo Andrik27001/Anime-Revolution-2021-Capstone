@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&family=Heebo:wght@900&display=swap');
 
 body {
   font-family: 'Lato', sans-serif;
   color: #272a31;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .color1 {
@@ -76,11 +76,10 @@ main {
 
 .mobile-nav {
   background-color: white;
-  box-shadow: 0 0 10px #41414194;
+  box-shadow: 0 0 10px #d3d3d3;
 }
 
 .mobile-nav a {
-  font-size: 17px;
   font-weight: bold;
 }
 
@@ -89,7 +88,7 @@ main {
   align-items: center;
   justify-content: center;
   font-size: 50px;
-  color: #555;
+  color: #272a31;
   padding: 0;
   margin: 10px 36px 5px;
 }
@@ -106,26 +105,28 @@ main {
 }
 
 .welcome h1 {
-  background-image: url(./Images/images.jpg);
-  background-size: cover;
+  background-image: linear-gradient(#ec5342ad, #ec534288), url(./Images/3ec98d50ad28f94cef09f8584d0b3957.jpg);
+  background-size: 400px;
+  background-position: left;
   background-clip: border-box;
   -webkit-background-clip: text;
   color: transparent;
-  font-family: 'Ultra', serif;
+  font-family: 'Heebo', sans-serif;
   font-size: 60px;
+  margin: 0;
 }
 
 .welcome-text {
   font-size: 19px;
   background-color: white;
-  box-shadow: 0 0 20px #272a3170;
+  box-shadow: 0 0 10px #d3d3d3;
   margin: 40px 0;
   padding: 20px;
 }
 
 .welcome-text2 h3 {
   font-size: 34px;
-  font-family: 'Ultra', serif;
+  font-family: 'Heebo', sans-serif;
 }
 
 .welcome-text2 {
@@ -146,22 +147,25 @@ main {
   justify-content: space-between;
   align-items: center;
   text-align: start;
-  min-height: 120px;
+  min-height: 100px;
   background-color: #d3d3d32d;
-  padding: 20px;
+  padding: 18px;
   margin: 12px 0 0 0;
   transition: 0.4s;
+  cursor: pointer;
 }
 
 .programs:hover {
   transform: scale(1.05);
-  background-color: #d3d3d39a;
-  box-shadow: 0 0 10px 5px #d3d3d36b;
+  background-color: #d3d3d3;
+  box-shadow: 0 0 10px 5px #d3d3d3;
   color: #272a31;
 }
 
 .program-icon {
-  font-size: 50px;
+  display: flex;
+  font-size: 45px;
+  height: 45px;
 }
 
 .program-title {
@@ -182,7 +186,7 @@ main {
 .main-program button {
   color: #d3d3d3;
   border-radius: 6px;
-  background-color: #ec5342;
+  background-color: #ec5242;
   border: none;
   font-size: 23px;
   padding: 36px 74px;
@@ -298,35 +302,43 @@ main {
   .desktop-nav1 ul {
     display: flex;
     justify-content: space-around;
-    width: 250px;
-    margin: 0 15% 0 0;
+    margin: 0 12vw 0 0;
     padding: 0;
   }
 
   .desktop-nav1 a {
-    color: #d3d3d3;
+    color: white;
+    padding: 0 1vw 0 0;
   }
 
   .desktop-nav2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    font-size: 17px;
     font-weight: bold;
     background-color: white;
-    box-shadow: 0 0 10px #41414194;
+    box-shadow: 0 0 10px #d3d3d3;
+    height: 66px;
+  }
+
+  .desktop-logo2 {
+    margin: 0 0 0 10vw;
+  }
+
+  .desktop-nav2 img {
+    width: 160px;
   }
 
   .desktop-nav2 ul {
     display: flex;
     align-items: center;
-    margin: 0;
+    margin: 0 12vw 0 0;
     padding: 0;
   }
 
   .desktop-nav2 a {
     color: #272a31;
-    padding-right: 35px;
+    padding: 0 2.5vw 0 0;
   }
 
   .desktop-nav2 button {
@@ -353,6 +365,10 @@ main {
     width: 56%;
   }
 
+  .welcome-text2 {
+    font-size: 27px;
+  }
+
   .welcome-text2 h3 {
     font-size: 40px;
   }
@@ -368,7 +384,7 @@ main {
 
   .programs {
     flex-direction: column;
-    max-width: 250px;
+    width: 12vw;
     text-align: center;
     margin: 3px;
   }

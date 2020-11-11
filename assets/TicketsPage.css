@@ -33,7 +33,6 @@
 
 .day-price h4 {
   font-size: 18px;
-  font-weight: bold;
 }
 
 .day-price h3 {
@@ -61,13 +60,11 @@
 }
 
 .menu-title {
-  background-color: #f1f1f1;
   border: 1px solid #d3d3d3;
 }
 
 .menu-title h3 {
   padding: 20px;
-  font-weight: bold;
   margin: 0;
   font-size: 22px;
   color: #ec5242;
@@ -81,13 +78,12 @@
 
 .menu1 h4 {
   font-size: 18px;
-  font-weight: bold;
 }
 
 .confirm-button {
   color: #d3d3d3;
   border-radius: 6px;
-  background-color: #ec5342;
+  background-color: #ec5242;
   border: none;
   font-size: 23px;
   padding: 14px 70px;
@@ -98,7 +94,3 @@
   border: 1px solid #d3d3d3;
   padding: 8px 12px;
 }
-
-/* @media only screen and (min-width: 768px) {
-
-} */
