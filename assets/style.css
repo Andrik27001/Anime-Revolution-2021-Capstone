@@ -71,7 +71,7 @@ button {
 }
 
 main {
-  margin-top: 70px;
+  margin-top: 66px;
 }
 
 .mobile-nav {
@@ -249,6 +249,7 @@ main {
 
 .partner-logos img {
   margin: 10px;
+  transition: 0.4s;
 }
 
 .legal {
@@ -263,9 +264,13 @@ main {
   width: 200px;
 }
 
+.partner-logos img:hover {
+  transform: scale(1.1);
+}
+
 @media only screen and (min-width: 768px) {
   main {
-    margin-top: 106px;
+    margin-top: 103px;
   }
 
   .desktop-nav {
@@ -381,7 +386,7 @@ main {
   }
 
   .partner-logos img {
-    margin: 30px;
+    margin: 25px;
     transition: 0.4s;
   }
 
