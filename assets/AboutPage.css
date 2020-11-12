@@ -1,0 +1,137 @@
+main {
+  text-align: center;
+}
+
+.first-section-container {
+  background-image: url(./Images/background2.jpg);
+  background-size: cover;
+  background-position: left;
+  padding: 30px;
+}
+
+.about-welcome-headers {
+  margin: 60px 0;
+}
+
+.about-welcome h1 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 65px;
+}
+
+.about-welcome-info {
+  background-color: white;
+  box-shadow: 0 0 10px #d3d3d3;
+  padding: 20px;
+  margin-bottom: 60px;
+  line-height: 33px;
+}
+
+.about-email a {
+  display: block;
+  color: #272a31;
+  margin: 10px 0 60px 0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.about-logo-section {
+  background-color: white;
+  box-shadow: 0 0 10px #d3d3d3;
+}
+
+.about-logo-info {
+  margin: 0 auto 40px auto;
+  width: 50%;
+}
+
+.about-logo-section img {
+  box-shadow: 0 0 10px #d3d3d3;
+  border-radius: 6px;
+  padding: 40px;
+  margin-bottom: 50px;
+}
+
+.past-conventions a:hover {
+  text-decoration: none;
+}
+
+.past-animes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0 0 0;
+}
+
+.anime-2015,
+.anime-2018 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  width: 480px;
+  min-height: 260px;
+  margin: 12px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.anime-2015 {
+  background-image: linear-gradient(#ec5242ab, #ec5242ab), url(./Images/anime-convention2015.jpg);
+}
+
+.anime-2018 {
+  background-image: linear-gradient(#ec5242ab, #ec5242ab), url(./Images/anime_expo.jpg);
+}
+
+.anime-2015 h3,
+.anime-2018 h3 {
+  font-family: 'Heebo', sans-serif;
+  letter-spacing: 6px;
+  font-size: 40px;
+  margin: 0;
+}
+
+.anime-2015 h5,
+.anime-2018 h5 {
+  font-size: 22px;
+  margin: 6px 0 0 0;
+}
+
+.anime-2015:hover,
+.anime-2018:hover {
+  transform: scale(1.05);
+}
+
+.legal1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+  height: 120px;
+  font-size: 16px;
+  color: #d3d3d3;
+  background-color: #272a31;
+}
+
+.legal1 img {
+  width: 220px;
+}
+
+@media only screen and (min-width: 768px) {
+  .legal1 {
+    justify-content: center;
+    height: 200px;
+    font-size: 15px;
+  }
+
+  .legal-text1 {
+    margin-left: 30px;
+    width: 46%;
+  }
+
+  .legal-text1 a {
+    color: #d3d3d3;
+  }
+}
