@@ -70,13 +70,9 @@ button {
   margin: 0;
 }
 
-main {
-  margin-top: 66px;
-}
-
 .mobile-nav {
   background-color: white;
-  box-shadow: 0 0 10px #d3d3d3;
+  box-shadow: 0 1px 2px #d3d3d3;
 }
 
 .mobile-nav a {
@@ -157,7 +153,7 @@ main {
 
 .programs:hover {
   transform: scale(1.05);
-  background-color: #d3d3d3;
+  background-color: white;
   box-shadow: 0 0 10px 5px #d3d3d3;
   color: #272a31;
 }
@@ -273,17 +269,6 @@ main {
 }
 
 @media only screen and (min-width: 768px) {
-  main {
-    margin-top: 103px;
-  }
-
-  .desktop-nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-  }
-
   .desktop-nav1 {
     display: flex;
     justify-content: flex-end;
@@ -316,8 +301,11 @@ main {
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 2;
     background-color: white;
-    box-shadow: 0 0 10px #d3d3d3;
+    box-shadow: 0 1px 2px #d3d3d3;
     height: 66px;
   }
 
