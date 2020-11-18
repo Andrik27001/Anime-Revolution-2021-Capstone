@@ -28,7 +28,7 @@ ul {
 
 a {
   text-decoration: none;
-  transition: all 0.6s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 button {
@@ -76,6 +76,16 @@ button {
 }
 
 .mobile-nav a {
+  font-weight: bold;
+}
+
+.mobile-links a:hover {
+  background-color: #ec5242;
+  color: #d3d3d3;
+}
+
+.mobile-link {
+  font-size: 17px;
   font-weight: bold;
 }
 
@@ -143,9 +153,9 @@ button {
   justify-content: space-between;
   align-items: center;
   text-align: start;
-  min-height: 100px;
+  min-height: 135px;
   background-color: #d3d3d32d;
-  padding: 18px;
+  padding: 16px;
   margin: 12px 0 0 0;
   transition: 0.4s;
   cursor: pointer;
@@ -199,7 +209,7 @@ button {
   margin-right: 26px;
   width: 160px;
   height: 160px;
-  box-shadow: -12px -12px 14px #272a31;
+  border-radius: 4px;
 }
 
 .speakers h2 {
@@ -223,6 +233,11 @@ button {
 .speakers p {
   font-size: 14px;
   margin: 0;
+}
+
+.featured-speakers {
+  background-image: url(./Images/a1a5fdab63dd386d5e321d0b5b8cdcea.jpg);
+  background-size: cover;
 }
 
 .featured-speakers button {
@@ -249,7 +264,6 @@ button {
 
 .partner-logos img {
   margin: 10px;
-  transition: 0.4s;
 }
 
 .legal {
@@ -265,7 +279,9 @@ button {
 }
 
 .partner-logos img:hover {
-  transform: scale(1.1);
+  transition: 1s;
+  transform: rotateY(360deg);
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
@@ -392,11 +408,6 @@ button {
   .partner-logos img {
     margin: 25px;
     transition: 0.4s;
-  }
-
-  .partner-logos img:hover {
-    transform: scale(1.3);
-    cursor: pointer;
   }
 
   .legal {
