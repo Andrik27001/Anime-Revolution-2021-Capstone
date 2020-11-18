@@ -103,11 +103,10 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 220px 30px;
+  padding: 200px 30px;
   min-height: 800px;
   background-image: url(./Images/background2.jpg);
   background-size: cover;
-  background-position:  right;
 }
 
 .welcome h1 {
@@ -355,6 +354,8 @@ button {
   .welcome {
     display: flex;
     padding-left: 10%;
+    background-size: cover;
+    background-position: right;
   }
 
   .welcome h2 {
