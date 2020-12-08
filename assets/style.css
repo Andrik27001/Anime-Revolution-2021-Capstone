@@ -278,8 +278,6 @@ button {
 }
 
 .partner-logos img:hover {
-  transition: 1s;
-  transform: rotateY(360deg);
   cursor: pointer;
 }
 
@@ -340,8 +338,7 @@ button {
   }
 
   .desktop-nav2 a {
-    color: #272a31;
-    padding: 0 2.5vw 0 0;
+    padding: 0 2vw 0 0;
   }
 
   .desktop-nav2 button {
@@ -389,7 +386,7 @@ button {
 
   .programs {
     flex-direction: column;
-    width: 12vw;
+    width: 230px;
     text-align: center;
     margin: 3px;
   }
@@ -408,7 +405,6 @@ button {
 
   .partner-logos img {
     margin: 25px;
-    transition: 0.4s;
   }
 
   .legal {
