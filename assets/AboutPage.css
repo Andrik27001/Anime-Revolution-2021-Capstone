@@ -2,6 +2,10 @@ main {
   text-align: center;
 }
 
+.about-link {
+  color: #ec5242;
+}
+
 .first-section-container {
   background-image: url(./Images/background2.jpg);
   background-size: cover;

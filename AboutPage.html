@@ -16,13 +16,13 @@
       <button class="btn mobile-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="iconify" data-icon="fa-solid:bars" data-inline="false"></span>
       </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <div class="dropdown-menu mobile-links" aria-labelledby="dropdownMenuButton">
         <a class="dropdown-item" href="./index.html"><img width="150" src="./assets/Images/Anime-logo.png" alt="Anime logo"></a>
         <hr>
-        <a class="dropdown-item" href="./AboutPage.html">About</a>
-        <a href="./index.html#program" class="dropdown-item">Program</a>
-        <a href="./index.html#join-button" class="dropdown-item">Join</a>
-        <a href="./index.html#sponsors" class="dropdown-item">Sponsor</a>
+        <a class="dropdown-item color1" href="./AboutPage.html">About</a>
+        <a href="#program" class="dropdown-item">Program</a>
+        <a href="#join-button" class="dropdown-item">Join</a>
+        <a href="#sponsors" class="dropdown-item">Sponsor</a>
         <a href="./AboutPage.html" class="dropdown-item">News</a>
         <a href="./TicketsPage.html" class="dropdown-item color1">Anime Revolution 2021</a>
         <hr>
@@ -31,49 +31,51 @@
         <a href="#" class="dropdown-item">English</a>
       </div>
     </div>
-
-    <div class="desktop-nav d-none d-md-block">
-      <div class="desktop-nav1">
-        <div class="desktop-icons1">
-          <a href="#">
-            <span class="iconify" data-icon="brandico:facebook" data-inline="false"></span>
-          </a>
-          <a href="#">
-            <span class="iconify" data-icon="brandico:twitter-bird" data-inline="false"></span>
-          </a>
-        </div>
+    <div class="desktop-nav1 d-none d-md-flex">
+      <div class="desktop-icons1">
+        <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank">
+          <span class="iconify" data-icon="brandico:facebook" data-inline="false"></span>
+        </a>
+        <a href="https://twitter.com/home?lang=es" rel="noopener noreferrer" target="_blank">
+          <span class="iconify" data-icon="brandico:twitter-bird" data-inline="false"></span>
+        </a>
+      </div>
+      <div>
         <ul>
           <li><a href="#">Login</a></li>
           <li><a href="#">My Page</a></li>
           <li><a href="#">English</a></li>
         </ul>
       </div>
-      <div class="desktop-nav2">
-        <div class="desktop-logo2">
-          <a class="p-0" href="./index.html">
-            <img src="./assets/Images/Anime-logo.png" width="200" alt="Anime logo">
-          </a>
-        </div>
-        <ul>
-          <li><a href="./AboutPage.html">About</a></li>
-          <li><a href="./index.html#program">Program</a></li>
-          <li><a href="./index.html#join-button">Join</a></li>
-          <li><a href="./index.html#sponsors">Sponsor</a></li>
-          <li><a href="./AboutPage.html">News</a></li>
-          <li>
-            <form method="GET" action="./TicketsPage.html">
-              <button type="submit">AR2021</button>
-            </form>
-          </li>
-        </ul>
-      </div>
     </div>
   </header>
+
+  <div class="desktop-nav2 d-none d-md-flex">
+    <div class="desktop-logo2">
+      <a class="p-0" href="./index.html">
+        <img src="./assets/Images/Anime-logo.png" width="200" alt="Anime logo">
+      </a>
+    </div>
+    <div>
+      <ul>
+        <li><a class="color1" href="./AboutPage.html">About</a></li>
+        <li><a class="color2" href="./index.html#program">Program</a></li>
+        <li><a class="color2" href="./index.html#join-button">Join</a></li>
+        <li><a class="color2" href="./index.html#sponsors">Sponsor</a></li>
+        <li><a class="color2" href="./AboutPage.html">News</a></li>
+        <li>
+          <form method="GET" action="./TicketsPage.html">
+            <button type="submit">AR2021</button>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
 
   <main>
     <section>
       <div class="first-section-container">
-        <div class="container-xl about-welcome p-0">
+        <div class="container about-welcome p-0">
           <div class="color1 about-welcome-headers">
             <h2 class="d-md-none">Kon'nichiwa Anime Lovers!"</h2>
             <h1>ANIME REVOLUTION 2021</h1>
@@ -113,7 +115,7 @@
     </section>
 
     <section>
-      <div class="container-xl past-conventions">
+      <div class="past-conventions">
         <div class="section-title-black">
           <h2>See the past AR Conventions</h2>
           <p>___________</p>
