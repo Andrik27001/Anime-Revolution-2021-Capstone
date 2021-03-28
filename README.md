@@ -37,7 +37,7 @@ I hope you enjoy it!
 
 ## Live Demo
 
-[Live Demo Link](https://peaceful-bose-852830.netlify.app)
+[Live Demo Link](https://hopeful-fermat-d58956.netlify.app)
 
 **See the page via the link above**
 
